@@ -1,0 +1,128 @@
+.box {
+    left: 70%;
+    margin-top: 7%;
+    position: absolute;
+    display: inline-block;
+}
+
+.topbar {
+    left: 70%;
+    margin-top: 7%;
+    position: absolute;
+}
+
+.bottombar {
+    left: 70%;
+    margin-top: 20.95%;
+    position: absolute;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 4%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 3%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
+
+a {
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,
+a:active,
+a.active {
+    color: rgb(243, 203, 203);
+}
+
+.empty {
+    padding: 3%;
+}
+
+p {
+    margin-left: 5%;
+    margin-top: 15%;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+img {
+    height: 110px;
+    width: 110px;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+}
+
+
+/*Making responsive screens*/
+
+
+/*phone screen*/
+
+@media screen and (max-width: 600px) {}
+
+
+/*tablet screen*/
+
+@media screen and (max-width: 768px) {
+    .box {
+        left: 30%;
+        margin-top: 7%;
+        position: absolute;
+        display: inline-block;
+    }
+    .topbar {
+        left: 60%;
+        margin-top: 7%;
+        position: absolute;
+    }
+    .bottombar {
+        left: 60%;
+        margin-top: 50%;
+        position: absolute;
+    }
+}
+
+
+/*laptop screen*/
+
+@media screen and (max-width: 1030px) {
+    .bottombar {
+        left: 60%;
+        margin-top: 26.5%;
+        position: absolute;
+    }
+    .box {
+        left: 60%;
+        margin-top: 7%;
+        position: absolute;
+        display: inline-block;
+    }
+    .topbar {
+        left: 60%;
+        margin-top: 7%;
+        position: absolute;
+    }
+}
+
+
+/*large screen*/
+
+@media screen and (orientation: landscape) and (max-width: 1000px) {}
