@@ -18,14 +18,13 @@ import MoneyMatter from "./pages/MoneyMatters";
 import Work from "./pages/Work";
 import Personal from "./pages/Personal";
 import FoodAndShelter from "./pages/FoodAndShelter";
+import Layout from "./componenets/Layout/Layout";
 
-//import MainNavigation from "./components/layout/MainNavigation";
+//import MainNavigation from "./componenets/Layout/MainNavigation";
 
 function App() {
   return (
-    /*<MainNavigation />*/
-    <div>
-      <PersonalProfile />
+    <Layout>
       <Switch>
         {/*exact={true} will create looking for the
          right route and not stop ONCE it saw the first 
@@ -88,8 +87,7 @@ function App() {
           <CurrentBalance />
         </Route>
       </Switch>
-      <hr></hr>
-    </div>
+    </Layout>
   );
 }
 
