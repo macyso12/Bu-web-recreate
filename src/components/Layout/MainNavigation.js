@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import {} from "@material-ui/core";
 //import { IconName } from "react-icons/";
 import { AiOutlineSearch } from "react-icons/ai";
+import React from "react";
 
 var bgColors = {
   grey: "#F3F1F1",
@@ -36,7 +37,7 @@ function MainNavigation() {
         </ul>
       </nav>
 
-      <div class="input">
+      <div className="input">
         <input
           type="text"
           placeholder="      Search..."

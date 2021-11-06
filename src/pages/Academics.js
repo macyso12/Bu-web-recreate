@@ -1,9 +1,7 @@
+import React from "react";
+
 function Academics() {
-  return (
-    <div>
-      <h1> This is the Academic Page</h1>;
-    </div>
-  );
+  return <div>This is Academics Page</div>;
 }
 
 export default Academics;

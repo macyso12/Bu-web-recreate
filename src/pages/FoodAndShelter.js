@@ -1,3 +1,5 @@
+import React from "react";
+
 function FoodAndShelter() {
   return <div>This is Food and Shelter Page</div>;
 }

@@ -2,6 +2,7 @@ import { Box } from "@material-ui/core";
 import classes from "./PersonalProfile.module.css";
 import ProfilePic from "../../src/ProfilePic.jpg";
 import { Link } from "react-router-dom";
+import React from "react";
 
 var bgColors = {
   Red: "#CC0000",
@@ -9,7 +10,7 @@ var bgColors = {
 
 function PersonalProfile() {
   return (
-    <div>
+    <div display="flex">
       <Box
         className={classes.box}
         bgcolor="white"

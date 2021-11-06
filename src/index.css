@@ -1,19 +1,16 @@
 body {
     background-color: rgba(229, 229, 229, 1);
+    font-family: "Montserrat", sans-serif;
 }
 
 h1 {
     font-size: 2.5rem;
     color: #2c292b;
+    font-family: "Montserrat", sans-serif;
 }
 
 h2 {
     font-size: 1.5rem;
     color: #2c292b;
-}
-
-.homestyle {
-    position: relative;
-    z-index: 1;
-    margin-top: 50%;
+    font-family: "Montserrat", sans-serif;
 }

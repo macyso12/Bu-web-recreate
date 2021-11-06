@@ -1,19 +1,19 @@
 .box {
     left: 70%;
-    margin-top: 1.15%;
+    margin-top: -2%;
     position: absolute;
     display: inline-block;
 }
 
 .topbar {
     left: 70%;
-    margin-top: 1.25%;
+    margin-top: -2%;
     position: absolute;
 }
 
 .bottombar {
     left: 70%;
-    margin-top: 15%;
+    margin-top: 12%;
     position: absolute;
 }
 

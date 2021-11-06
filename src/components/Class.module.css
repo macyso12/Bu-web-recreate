@@ -1,11 +1,22 @@
-.h1 {
-    margin-top: 50%;
-    font-size: 2rem;
-    z-index: 1;
+.hr {
+    margin-top: 1.5%;
+    margin-left: 3%;
+    width: 58rem;
 }
 
-.hr {
-    margin-top: 26%;
-    margin-left: 3%;
-    margin-right: 3%;
+.current {
+    margin-left: 42%;
+    color: #5dc0d1;
+}
+
+.current:hover {
+    color: black;
+}
+
+div {
+    display: inline;
+}
+
+.space {
+    height: 40%;
 }

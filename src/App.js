@@ -14,11 +14,12 @@ import DiningPlanInfo from "./pages/DiningPlanInfo";
 import CurrentBalance from "./pages/CurrentBalance";
 import { Route, Switch } from "react-router-dom";
 import Academics from "./pages/Academics";
-import MoneyMatter from "./pages/MoneyMatters";
+import MoneyMatter from "./pages/MoneyMatter";
 import Work from "./pages/Work";
 import Personal from "./pages/Personal";
 import FoodAndShelter from "./pages/FoodAndShelter";
 import Layout from "./components/Layout/Layout";
+import React from "react";
 
 //import MainNavigation from "./components/Layout/MainNavigation";
 
@@ -38,7 +39,7 @@ function App() {
         <Route path="/academics" exact={true}>
           <Academics />
         </Route>
-        <Route path="/money-matters" exact={true}>
+        <Route path="/money-matter" exact={true}>
           <MoneyMatter />
         </Route>
         <Route path="/work" exact={true}>
