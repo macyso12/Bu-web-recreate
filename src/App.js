@@ -1,8 +1,8 @@
-import UnivesityClassSchedule from "./pages/UnivesityClassSchedule";
+import UniversityClassSchedule from "./pages/UnivesityClassSchedule";
 import BUStudentLinkHome from "./pages/BUStudentLinkHome";
 import AcademicAdvising from "./pages/AcademicAdvising";
 import Grades from "./pages/Grades";
-import PersonalProfile from "./componenets/PersonalProfile";
+import PersonalProfile from "./components/PersonalProfile";
 import AcademicCalendar from "./pages/AcademicCalendar";
 import CurrentSchedule from "./pages/CurrentSchedule";
 import FitRecMembership from "./pages/FitRecMembership";
@@ -18,9 +18,9 @@ import MoneyMatter from "./pages/MoneyMatters";
 import Work from "./pages/Work";
 import Personal from "./pages/Personal";
 import FoodAndShelter from "./pages/FoodAndShelter";
-import Layout from "./componenets/Layout/Layout";
+import Layout from "./components/Layout/Layout";
 
-//import MainNavigation from "./componenets/Layout/MainNavigation";
+//import MainNavigation from "./components/Layout/MainNavigation";
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
           <BUStudentLinkHome />
         </Route>
         <Route path="/university-class-schedule" exact={true}>
-          <UnivesityClassSchedule />
+          <UniversityClassSchedule />
         </Route>
         <Route path="/academics" exact={true}>
           <Academics />

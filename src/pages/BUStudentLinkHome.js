@@ -1,5 +1,11 @@
+import Class from "../components/Class";
+
 function BUStudentLinkHome() {
-  return <div>This is the home page</div>;
+  return (
+    <div>
+      <Class />
+    </div>
+  );
 }
 
 export default BUStudentLinkHome;
