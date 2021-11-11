@@ -1,3 +1,16 @@
 .main {
-    background-color: black;
+    margin-top: 10%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.content-container {
+    min-height: calc(100vh - 34px);
 }

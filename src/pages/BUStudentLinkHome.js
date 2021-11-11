@@ -3,7 +3,7 @@ import React from "react";
 
 function BUStudentLinkHome() {
   return (
-    <div display="flex">
+    <div>
       <Class />
     </div>
   );

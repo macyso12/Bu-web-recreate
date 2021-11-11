@@ -1,5 +1,37 @@
-.line {
-    margin-top: 43%;
-    margin-left: 3%;
-    margin-right: 3%;
+* {
+    color: black;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+}
+
+.list {
+    margin-bottom: 2%;
+    padding: 0;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.general li {
+    margin-left: 3rem;
+}
+
+hr {
+    width: 85rem;
+}
+
+a:hover {
+    color: #cc0000;
+}
+
+.general {
+    align-items: center;
+    justify-content: space-between;
+    right: 0;
 }

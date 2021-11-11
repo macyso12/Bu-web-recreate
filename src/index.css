@@ -14,3 +14,16 @@ h2 {
     color: #2c292b;
     font-family: "Montserrat", sans-serif;
 }
+
+.footer {
+    border-top: 1px solid black;
+    flex-shrink: 0;
+    position: fixed;
+    height: 10%;
+    bottom: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+    align-items: center;
+    width: 94%;
+}

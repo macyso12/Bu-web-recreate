@@ -10,23 +10,18 @@ var bgColors = {
 
 function PersonalProfile() {
   return (
-    <div display="flex">
-      <Box
-        className={classes.box}
-        bgcolor="white"
-        width={400}
-        height={250}
-        sx={{ borderColor: "primary.main" }}
-      >
+    <div display="inline-block">
+      <Box className={classes.box} bgcolor="white" width={400} height={250}>
         <div className={classes.empty}></div>
         <div className={classes.container}>
           <img
             className={classes.img}
             src={ProfilePic}
             alt="Profile"
-            style={{ marginTop: "12%", display: "inline-block" }}
+            style={{ marginTop: "12%" }}
           ></img>
-          <p>
+
+          <p style={{ marginLeft: "4%", width: "100%" }}>
             So May See Macy <br />
             Computer Science Major <br />
             Current Standing: Sophomore <br />
